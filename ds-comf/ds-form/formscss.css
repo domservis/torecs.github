@@ -1,0 +1,852 @@
+
+/*/ds-comf/ds-form/css/ds_callme.css*/
+#ds_callme {
+background:white;
+border:1px solid #d8d8d8;
+border-top: 1px solid #fff;
+padding: 0 20px;
+background-image: url(../../images/form-bg-1.png);
+background-repeat: no-repeat;
+    background-position: 57px 98px;
+    height: 340px;
+}
+#ds_callme .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+#ds_callme label {
+  display: block;
+}
+#ds_callme input[type="text"] {
+background: #F7F7F7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 15px !important;
+padding: 3px 0;
+text-indent: 8px;
+width: 369px;
+}
+#ds_callme textarea {
+background: #f7f7f7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 5px;
+padding: 3px 0;
+text-indent: 8px;
+width: 370px;
+}
+#ds_callme input[type="submit"] {
+cursor: pointer;
+    padding: 7px 0 8px 0;
+    width: 140px;
+    display: block;
+    color: #1a1a1a;
+    text-align: center;
+    background: #ffcb05;
+    border: none;
+    margin-top: 10px;
+}
+#ds_callme input[type="submit"]:hover {
+    background: #3d3d3d;
+    color: #fff;
+}
+#ds_callme select {
+  background: none;
+  height: 30px;
+  color: #444444;
+}
+#ds_callme .labelcall {
+  height: 30px;
+}
+#ds_callme .labelcall label {
+  width: 80px;
+  float: none;
+  padding-left: 10px;
+}
+#ds_callme .scall label,
+#ds_callme .docall label {
+  line-height: 28px;
+  width: 20px;
+  margin: 0 8px;
+}
+#ds_callme .labelcall,
+#ds_callme .scall,
+#ds_callme .docall {
+  display: inline-block;
+  margin: 0;
+}
+#ds_callme .zpole,
+#ds_callme .buttonform {
+  text-align: center;
+}
+#ds_callme .error_form ul {
+  border-top: 1px solid #eeeeee;
+  background-color: #E7E7E7;
+}
+#ds_callme .error-report {
+  color: #444;
+}
+.field-1 {
+  float: left;
+  width:30%;
+}
+.field-1 input {
+  width:170px !important;
+}
+.field-2 {
+  float:left;
+  width:40%;
+}
+.field-2 input {
+width:170px !important;
+}
+.field-3 {
+  width:50%;
+}
+.field-3 input {
+width:50% !important;
+}
+/*/ds-comf/ds-form/css/ds_director.css*/
+#ds_director {
+background:white;
+border:1px solid #d8d8d8;
+border-top: 1px solid #fff;
+padding: 0 20px;
+background-image: url(../../images/form-bg-1.png);
+background-repeat: no-repeat;
+    background-position: 57px 98px;
+    height: 340px;
+        width: 660px;
+}
+#ds_director .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+#ds_director label {
+  display: block;
+}
+#ds_director input[type="text"] {
+background: #F7F7F7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 15px !important;
+padding: 3px 0;
+text-indent: 8px;
+width: 369px ;
+}
+#ds_director textarea {
+background: #f7f7f7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 5px;
+padding: 3px 0;
+text-indent: 8px;
+width: 390px;
+}
+#ds_director input[type="submit"] {
+cursor: pointer;
+    padding: 7px 0 8px 0;
+    width: 140px;
+    display: block;
+    color: #1a1a1a;
+    text-align: center;
+    background: #ffcb05;
+    border: none;
+    margin-top: 10px;
+}
+#ds_director input[type="submit"]:hover {
+    background: #3d3d3d;
+    color: #fff;
+}
+#ds_director select {
+  background: none;
+  height: 30px;
+  color: #444444;
+}
+#ds_director .labelcall {
+  height: 30px;
+}
+#ds_director .labelcall label {
+  width: 80px;
+  float: none;
+  padding-left: 10px;
+}
+#ds_director .scall label,
+#ds_director .docall label {
+  line-height: 28px;
+  width: 20px;
+  margin: 0 8px;
+}
+#ds_director .labelcall,
+#ds_director .scall,
+#ds_director .docall {
+  display: inline-block;
+  margin: 0;
+}
+#ds_director .zpole,
+#ds_director .buttonform {
+  text-align: center;
+}
+#ds_director .error_form ul {
+  border-top: 1px solid #eeeeee;
+  background-color: #E7E7E7;
+}
+#ds_director .error-report {
+  color: #444;
+}
+.field-0 {
+  float:left;
+  width:200px !important;
+}
+.field-0 input {
+width:190px !important;
+}
+
+.field-1 {
+  float: left;
+  width:190px !important;
+}
+.field-1 input {
+  width:190px !important;
+}
+
+.field-3 {
+width: 740px !important;
+}
+.field-3 input {
+width: 740px !important;
+}
+
+/*/ds-comf/ds-form/css/ds_otziv.css*/
+#ds_otziv {
+background:white;
+border:1px solid #d8d8d8;
+border-top: 1px solid #fff;
+padding: 0 20px;
+background-image: url(../../images/form-bg-1.png);
+background-repeat: no-repeat;
+    background-position: 57px 98px;
+    height: 340px;
+}
+#ds_otziv .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+#ds_otziv label {
+  display: block;
+}
+#ds_otziv input[type="text"] {
+background: #F7F7F7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 15px !important;
+padding: 3px 0;
+text-indent: 8px;
+width: 369px ;
+}
+#ds_otziv textarea {
+background: #f7f7f7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 5px;
+padding: 3px 0;
+text-indent: 8px;
+width: 390px;
+}
+#ds_otziv input[type="submit"] {
+cursor: pointer;
+    padding: 7px 0 8px 0;
+    width: 140px;
+    display: block;
+    color: #1a1a1a;
+    text-align: center;
+    background: #ffcb05;
+    border: none;
+    margin-top: 10px;
+}
+#ds_otziv input[type="submit"]:hover {
+    background: #3d3d3d;
+    color: #fff;
+}
+#ds_otziv select {
+  background: none;
+  height: 30px;
+  color: #444444;
+}
+#ds_otziv .labelcall {
+  height: 30px;
+}
+#ds_otziv .labelcall label {
+  width: 80px;
+  float: none;
+  padding-left: 10px;
+}
+#ds_otziv .scall label,
+#ds_otziv .docall label {
+  line-height: 28px;
+  width: 20px;
+  margin: 0 8px;
+}
+#ds_otziv .labelcall,
+#ds_otziv .scall,
+#ds_otziv .docall {
+  display: inline-block;
+  margin: 0;
+}
+#ds_otziv .zpole,
+#ds_otziv .buttonform {
+  text-align: center;
+}
+#ds_otziv .error_form ul {
+  border-top: 1px solid #eeeeee;
+  background-color: #E7E7E7;
+}
+#ds_otziv .error-report {
+  color: #444;
+}
+.field-0 {
+  float:left;
+  width:200px !important;
+}
+.field-0 input {
+width:190px !important;
+}
+
+.field-1 {
+  float: left;
+  width:190px !important;
+}
+.field-1 input {
+  width:190px !important;
+}
+
+.field-3 {
+width: 740px !important;
+}
+.field-3 input {
+width: 740px !important;
+}
+
+/*/ds-comf/ds-form/css/ds_question.css*/
+#ds_question {
+background:white;
+border:1px solid #d8d8d8;
+border-top: 1px solid #fff;
+padding: 0 20px;
+background-image: url(../../images/form-bg-1.png);
+background-repeat: no-repeat;
+    background-position: 57px 98px;
+    height: 340px;
+}
+#ds_question .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+#ds_question label {
+  display: block;
+}
+#ds_question input[type="text"] {
+background: #F7F7F7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 15px !important;
+padding: 3px 0;
+text-indent: 8px;
+width: 369px ;
+}
+#ds_question textarea {
+background: #f7f7f7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 5px;
+padding: 3px 0;
+text-indent: 8px;
+width: 390px;
+}
+#ds_question input[type="submit"] {
+cursor: pointer;
+    padding: 7px 0 8px 0;
+    width: 140px;
+    display: block;
+    color: #1a1a1a;
+    text-align: center;
+    background: #ffcb05;
+    border: none;
+    margin-top: 10px;
+}
+#ds_question input[type="submit"]:hover {
+    background: #3d3d3d;
+    color: #fff;
+}
+#ds_question select {
+  background: none;
+  height: 30px;
+  color: #444444;
+}
+#ds_question .labelcall {
+  height: 30px;
+}
+#ds_question .labelcall label {
+  width: 80px;
+  float: none;
+  padding-left: 10px;
+}
+#ds_question .scall label,
+#ds_question .docall label {
+  line-height: 28px;
+  width: 20px;
+  margin: 0 8px;
+}
+#ds_question .labelcall,
+#ds_question .scall,
+#ds_question .docall {
+  display: inline-block;
+  margin: 0;
+}
+#ds_question .zpole,
+#ds_question .buttonform {
+  text-align: center;
+}
+#ds_question .error_form ul {
+  border-top: 1px solid #eeeeee;
+  background-color: #E7E7E7;
+}
+#ds_question .error-report {
+  color: #444;
+}
+.field-0 {
+  float:left;
+  width:200px !important;
+}
+.field-0 input {
+width:190px !important;
+}
+
+.field-1 {
+  float: left;
+  width:190px !important;
+}
+.field-1 input {
+  width:190px !important;
+}
+
+.field-3 {
+width: 740px !important;
+}
+.field-3 input {
+width: 740px !important;
+}
+
+/*/ds-comf/ds-form/css/ds_zayavka.css*/
+#ds_zayavka {
+background:white;
+border:1px solid #d8d8d8;
+border-top: 1px solid #fff;
+padding: 0 20px;
+background-image: url(../../images/form-bg-1.png);
+background-repeat: no-repeat;
+    background-position: 57px 98px;
+    height: 340px;
+}
+#ds_zayavka .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: center;
+}
+#ds_zayavka label {
+  display: block;
+}
+#ds_zayavka input[type="text"] {
+background: #F7F7F7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 15px !important;
+padding: 3px 0;
+text-indent: 8px;
+width: 369px ;
+}
+#ds_zayavka textarea {
+background: #f7f7f7;
+border: 1px solid #e5e5e5;
+display: block;
+margin-top: 5px;
+padding: 3px 0;
+text-indent: 8px;
+width: 390px;
+}
+#ds_zayavka input[type="submit"] {
+cursor: pointer;
+    padding: 7px 0 8px 0;
+    width: 140px;
+    display: block;
+    color: #1a1a1a;
+    text-align: center;
+    background: #ffcb05;
+    border: none;
+    margin-top: 10px;
+}
+#ds_zayavka input[type="submit"]:hover {
+    background: #3d3d3d;
+    color: #fff;
+}
+#ds_zayavka select {
+  background: none;
+  height: 30px;
+  color: #444444;
+}
+#ds_zayavka .labelcall {
+  height: 30px;
+}
+#ds_zayavka .labelcall label {
+  width: 80px;
+  float: none;
+  padding-left: 10px;
+}
+#ds_zayavka .scall label,
+#ds_zayavka .docall label {
+  line-height: 28px;
+  width: 20px;
+  margin: 0 8px;
+}
+#ds_zayavka .labelcall,
+#ds_zayavka .scall,
+#ds_zayavka .docall {
+  display: inline-block;
+  margin: 0;
+}
+#ds_zayavka .zpole,
+#ds_zayavka .buttonform {
+  text-align: center;
+}
+#ds_zayavka .error_form ul {
+  border-top: 1px solid #eeeeee;
+  background-color: #E7E7E7;
+}
+#ds_zayavka .error-report {
+  color: #444;
+}
+.field-0 {
+  float:left;
+  width:200px !important;
+}
+.field-0 input {
+width:190px !important;
+}
+
+.field-1 {
+  float: left;
+  width:190px !important;
+}
+.field-1 input {
+  width:190px !important;
+}
+
+.field-3 {
+width: 390px !important;
+}
+.field-3 input {
+width: 390px !important;
+}
+
+/*/ds-comf/ds-form/css/dscallme.css*/
+#dscallme {
+  width: 177px;
+  margin: 20px 0;
+}
+#dscallme .form-head {
+  height: 22px;
+    text-transform: uppercase;
+    color: #e7ba2e;
+    float: left;
+    font-weight: bold;
+  
+}
+#dscallme label {
+  display: block;
+  float: left;
+  color: #555555;
+  width: 100px;
+}
+#dscallme input[type="text"] {
+  width: 150px !important;
+  height: 15px;
+  padding: 2px 5px;
+}
+#dscallme textarea {
+  width: 160px;
+  height: 50px;
+  resize: none;
+}
+#dscallme input[type="submit"] {
+    width: 100px;
+    height: 22px;
+    /* text-transform: uppercase; */
+    color: #FFF;
+    float: left;
+    background-color: #e7ba2e;
+    border: 1px;
+    border-radius: 20px;
+}
+#dscallme input[type="submit"]:hover {
+  cursor: pointer;
+}
+#dscallme .buttonform {
+  text-align: right;
+}
+#dscallme .error_form ul {
+  border-top: 1px solid #eeeeee;
+}
+#dscallme .error-report {
+  color: #444;
+}
+/*/ds-comf/ds-form/css/dsform.css*/
+#dsform {
+  width: 406px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 0px 15px;
+}
+#dsform .form-head {
+  color: #777777;
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eeeeee;
+  text-align: left;
+}
+#dsform label {
+  display: block;
+  float: left;
+  color: #555555;
+  width: 100px;
+}
+#dsform input[type="text"] {
+  width: 235px;
+  height: 31px;
+  padding: 2px 5px;
+}
+#dsform textarea {
+  width: 400px;
+  height: 125px;
+  resize: none;
+}
+#dsform input[type="submit"] {
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  color: #444444;
+}
+#dsform input[type="submit"]:hover {
+  cursor: pointer;
+}
+#dsform .buttonform {
+  text-align: right;
+}
+#dsform .error_form ul {
+  border-top: 1px solid #eeeeee;
+}
+#dsform .error-report {
+  color: #444;
+}
+/*/ds-comf/ds-form/css/dsforms.css*/
+/*  --------------------------------------------------
+  Global style
+  -------------------------------------------------- */
+form > div[class^="field"] {
+  margin: 14px 0;
+}
+form div[class^="field"] .focusout {
+  box-shadow: 0 0 5px #A0C2F9;
+  border-color: #A0C2F9;
+}
+form div[class^="field"] .alert {
+  box-shadow: 0 0 5px red;
+  border-color: red;
+}
+form div[class^="field"] label .required {
+  color: red;
+}
+.error-report {
+  text-align: center;
+  padding: 20px;
+}
+.error-report .head-report {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.error-report .text-report {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.error-report .text-report p {
+  margin: 5px 0;
+}
+.error_form ul {
+  padding: 5px;
+  list-style-position: inside;
+  margin: 0;
+}
+.error_form ul li {
+  list-style-type: none;
+  padding: 2px;
+  color: red;
+}
+.loadform, 
+.loadbuttom {
+  display: none;
+}
+.loadbuttom {
+  margin: 0 10px;
+}
+input[readonly],
+textarea[readonly] {
+    background: none !important;
+    border: none !important;
+}
+/*	--------------------------------------------------
+	Style dspopup Modals
+	-------------------------------------------------- */
+.dspopup-modal-bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  display: none;
+  top: 0;
+  left: 0;
+}
+.dspopup-modal {
+  visibility: hidden;
+  display: none;
+  background-color: #f5f5f5;
+  position: fixed;
+  z-index: 101;
+  padding: 30px 40px 34px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  -box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.dspopup-modal.small {
+  width: 200px;
+  margin-left: -140px;
+}
+.dspopup-modal.medium {
+  width: 400px;
+  margin-left: -240px;
+}
+.dspopup-modal.large {
+  width: 600px;
+  margin-left: -340px;
+}
+.dspopup-modal.xlarge {
+  width: 800px;
+  margin-left: -440px;
+}
+.dspopup-modal .close-dspopup-modal {
+  font-size: 22px;
+  line-height: .5;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  color: #aaa;
+  text-shadow: 0 -1px 1px rbga(0, 0, 0, 0.6);
+  font-weight: bold;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  background: url(images/close_circle.png) no-repeat;
+}
+.dspopup-modal .close-dspopup-modal:hover {
+  background-position: 0 100%;
+}
+/*  --------------------------------------------------
+  Forms Styles
+  -------------------------------------------------- */
+/*/ds-comf/ds-form/css/dsotziv.css*/
+#dsotziv {
+  width: 177px;
+  margin: 20px 0;
+}
+#dsotziv .form-head {
+  height: 22px;
+    text-transform: uppercase;
+    color: #e7ba2e;
+    float: left;
+    font-weight: bold;
+  
+}
+#dsotziv label {
+  display: block;
+  float: left;
+  color: #555555;
+  width: 100px;
+}
+#dsotziv input[type="text"] {
+  width: 150px !important;
+  height: 15px;
+  padding: 2px 5px;
+}
+#dsotziv textarea {
+  width: 160px;
+  height: 50px;
+  resize: none;
+}
+#dsotziv input[type="submit"] {
+    width: 100px;
+    height: 22px;
+    /* text-transform: uppercase; */
+    color: #FFF;
+    float: left;
+    background-color: #e7ba2e;
+    border: 1px;
+    border-radius: 20px;
+}
+#dsotziv input[type="submit"]:hover {
+  cursor: pointer;
+}
+#dsotziv .buttonform {
+  text-align: right;
+}
+#dsotziv .error_form ul {
+  border-top: 1px solid #eeeeee;
+}
+#dsotziv .error-report {
+  color: #444;
+}
