@@ -1,0 +1,156 @@
+#answerme {
+	height: 185px;
+	position: fixed;
+	*position: absolute;
+	top: 345px; 
+	right: 0;
+	width: 22px;
+	z-index: 110;
+}
+
+#answermeform .atxt {
+	width: 290px;
+	border: 1px solid #aaa;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 #fff;
+	color: #777;
+	font-size: 12px;
+	padding: 7px 5px;
+}
+
+#answermeform {
+	display: none;
+	text-shadow: 0 1px #fff;
+	border-bottom: 1px solid #b62b23;
+	border-top: 1px solid #b62b23;
+	box-shadow: 0 3px 5px #ccc;
+	padding-left: 10px;
+	position: fixed;
+	*position: absolute;  
+	border-radius: 7px;
+	right: 35px;
+	top: 345px;
+	width: 305px;
+	z-index:109;
+	background: #efefef;
+}
+
+#answermeform table {
+	border-collapse: collapse;
+	width: 305px;
+}
+
+#answermeform table td {font-size: 12px; padding: 2px 1px;}
+
+#answermeform .abtn {
+	background: #b62b23;
+	color:#fff;
+	font-size:12px;
+	text-shadow:0 1px 0 #757575;
+	padding:4px 0 5px 0;
+	margin:0;
+	cursor: pointer;
+	border:0;
+	border-top:1px solid #87c286;
+	width: 150px;
+	border-radius: 2px;
+}
+
+#answermeform .abtn_around{
+	box-shadow:0 1px 0 #fff;
+	border-radius: 3px;
+	border:1px solid #0e780c;
+	width: 150px;
+}
+
+#answermeform h6 {
+color: #b62b23;
+font-size: 13px;
+padding: 10px 0 8px 0;
+margin: 0;
+}
+
+.answermebody {
+	font-family: Tahoma;
+	font-size: 80%;
+	background: #fff;
+	padding: 5px 10px;
+}
+
+.answermebody .ainf {
+padding: 0 5px;
+margin: 0 0 10px 0;
+font-weight: bold;
+clear: both;
+}
+
+#aviewform {
+border: 0;
+padding: 0;
+background: url(answerme.png) 0px 0;
+height: 185px;
+width: 22px;
+cursor: pointer;
+}
+
+.answermeform_hover {
+	background-position: 22px 0!important;
+}
+
+#answerme_result {
+	background: #fff url(loading.gif) 10px center no-repeat;
+	display: block;
+	clear: both;
+	margin: 5px 11px 10px 0px;
+}
+
+#answerme_result div {
+    padding: 7px 7px;
+    margin: 4px 0px 0px 0px;
+}
+
+#answermee_result .a_sending {
+	padding: 7px 0 7px 35px;
+	display: block;
+	color:#555;
+	clear: both;
+}
+
+#answerme_result .a_success {
+	background: #c8ed9c;
+	color:#555;
+	border-radius:3px;
+}
+
+#answerme_result .a_error {
+	background: #ffadad;
+	color: #333;
+	text-shadow: none;
+	border-radius:3px;
+}
+
+#ame_cls {
+	height:15px;
+	width:15px;
+	float:right;
+	display:inline;	
+	background:url(close.png);
+	margin:12px 14px 0 0;
+	box-shadow: 0 1px 0 #fff;
+	cursor:pointer;
+}
+
+#am_crds a {
+	font-size: 10px;
+	color: #888;
+}
+
+#am_crds a:hover { text-decoration: none; }
+
+#am_crds {
+	display: inline;
+	float: right;
+	padding: 7px 12px 0 0;
+	font-size: 10px;
+	color: #888;
+}
