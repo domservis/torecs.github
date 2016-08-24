@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ru">
+<head>
+    <script src="https://use.fontawesome.com/f27b4461cf.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Домотехник</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/media.css" rel="stylesheet">
+	
+	<link href="css/owl.carousel.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var touch = $('#touch');
+			var menu = $('.menu768');
+			$(touch).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+				var wid = $(window).width();
+				if(wid > 768 && menu.is(':hidden')) {
+					menu.removeAttr('style');
+				}
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			var div = $('#full-text');
+			$('#linka').click(function() {
+				div.toggleClass('max-text');
+			});
+		});
+	</script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+  </head>
+  <body>
+   <div class="main">
+      <div class="header">
+         <div class="header-top">
+            <a href="#" class="logo">
+               <div class="logo__name" style="font-weight: 900; font-family: 'Open Sans',sans-serif;" >TORECS</div>
+               <div class="logo__slogan">Ремонт бытовой техники</div>
+           </a>
+           <div class="counter-job">
+               <div class="counter-job__number">5689</div>
+               <div class="counter-job__text">уже починили!</div>
+           </div>
+           <div class="header-top__button">
+               <a rel="leanModal" href="#" class="call-button">Вызвать специалиста</a>
+           </div>
+           <div class="header-top__phone">
+               <div class="phone">+7 495 374-88-05</div>
+               <a href="#" class="callback">Заказать звонок</a>
+           </div>
+       </div>
+       <div class="menu">
+        <a id="touch" href="" class="touch"><i class="fa fa-bars"></i> <span>Главное меню</span></a>
+        <div class="menu768">
+           <div class="menu__item">
+              <a href="#" class="menu__item-link">О компании</a>
+          </div>
+          <div class="menu__item">
+              <a href="#" class="menu__item-link">Услуги</a>
+          </div>
+          <div class="menu__item">
+              <a href="#" class="menu__item-link">Цены</a>
+          </div>
+          <div class="menu__item">
+              <a href="#" class="menu__item-link">Отзывы</a>
+          </div>
+          <div class="menu__item">
+              <a href="#" class="menu__item-link">Вопросы-ответы</a>
+          </div>
+          <div class="menu__item">
+              <a href="#" class="menu__item-link">Контакты</a>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="block1">
+ <span class="text-block1">Ремонт вашей<br><b>стиральной машины</b><br><b>Bosch<br class="dpn500"> рядом с м. Курская</b></span>
+ <div class="form1">
+    <span class="text-form1"><i>Бесплатная</i><br><b>диагностика</b> вашей<br>стиральной машины</span>
+    <span class="text-form2"><b>и <i>10%</i> скидка</b><br>при заявке с сайта</span>
+    <div class="spacer5"></div>
+    <input placeholder="Имя" type="text">
+    <input placeholder="+7" type="text">
+    <input class="button" type="button" value="Отправить">
+    <div class="snoska">Ваши данные будут сохранены<br>в секрете</div>
+</div>
+</div>
+<div class="block2">
+ <div class="owl-carousel">
+    <div class="item">
+       <img src="img/icon1.png">
+       <span class="span1">Быстро!<br>От 15 минут</span>
+       <div class="tochka"></div>
+       <span class="span2">Мастер выезжает на ваш обьект <b>в течении 15 минут</b> после вашего вызова и ремонтирует вашу стиральную машину от 15 минут<br> до <b>2 часов максимум.</b></span>
+   </div>
+   <div class="item">
+       <img src="img/icon2.png">
+       <span class="span1">Дешево!<br>От 600 руб.</span>
+       <div class="tochka"></div>
+       <span class="span2">Минимальная цена достигается за счет <b>контроля мастеров</b> нашим сервисным центром, а так же <b>прямым поставкам запчастей</b> с завода производителя.</span>
+   </div>
+   <div class="item">
+       <img src="img/icon3.png">
+       <span class="span1">Качественно!</span>
+       <div class="tochka"></div>
+       <span class="span2">На ваш вызов приедет<br> мастер, который <b>специализируется на<br> ремонте стиральных машин</b> именно вашей марки и прошел стажировку на заводе производителя.</span>
+   </div>
+   <div class="item">
+       <img src="img/icon4.png">
+       <span class="span1">Оригинальные<br>детали</span>
+       <div class="tochka"></div>
+       <span class="span2">Все комплектующие поставляются <b>напрямую</b> со всех 28 заводов производителей и имеют сертификаты соответствия.</span>
+   </div>
+</div>
+</div>
+<div class="block3">
+ <div class="left">
+    <span>Поломки, которые мы устраним<br class="dpn360"><b>за 15 мин.</b></span>
+    <div class="block">
+       <ul class="ul1">
+          <li>машинка не включается</li>
+          <li>течет вода из-под машинки</li>
+          <li>не работает отжим</li>
+          <li>не открывается дверка</li>
+      </ul>
+      <ul class="ul2">
+          <li>барабан не крутиться</li>
+          <li>течет вода</li>
+          <li>не работает слив воды</li>
+          <li>не работает налив воды</li>
+      </ul>
+  </div>
+</div>
+<div class="right"></div>
+</div>
+<div class="block4">
+ <span class="block4-span">
+    <span class="span1"><b>Бесплатная</b><br>
+       <i>диагностика вашей</i> 
+       <u>стиральной машины</u></span>
+       <span class="span2">
+          Мы свяжемся с вами в самые<br>кратчайшие сроки.
+      </span>
+  </span>
+  <div class="form1 form2">
+   <div class="spacer5"></div>
+   <select>
+      <option>Выберите бренд</option>
+      <option>Бренд 1</option>
+      <option>Бренд 2</option>
+      <option>Бренд 3</option>
+  </select>
+  <textarea placeholder="Опишите поломку"></textarea>
+  <input placeholder="+7" type="text">
+  <input class="button" type="button" value="Отправить">
+</div>
+</div>
+<div class="block5">
+    <h2>Мы ремонтируем более <i>38 брендов</i> стиральных машин</h2>
+    <div class="owl-carousel2">
+       <div class="item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/800px-Samsung_Logo.svg.png">
+      </div>
+      <div class="item">
+          <img src="img/indesit.png">
+      </div>
+      <div class="item">
+          <img src="http://rbt-dolgopa.ru/wp-content/uploads/2015/09/eea9ef36a2c17bce22dfe8b01fb1f9fe.gif">
+      </div>
+      <div class="item">
+          <img src="http://images.all-free-download.com/images/graphiclarge/zanussi_logo_31245.jpg">
+      </div>
+      <div class="item">
+          <img src="http://logo-all.ru/uploads/posts/2016-03/0_aeg__logo.jpg">
+      </div>
+  </div>
+</div>
+<div class="block6">
+    <h2>Отзывы <b>довольных клиентов</b></h2>
+    <div class="otziv">
+       <div class="left"><img src="img/otziv1.png"></div>
+       <div class="right">
+          <h3><b>Анна Иванова</b> / 25.01.2016</h3>
+          <span>Равным образом консультация с широким активом позволяет оценить значение существенных финансовых и административных условий. Идейные соображения высшего порядка, а также рамки и место обучения кадров требуют от нас анализа систем массового участия. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке направлений прогрессивного развития. </span>
+      </div>
+  </div>
+  <div class="otziv dpn360">
+   <div class="left"><img src="img/otziv2.png"></div>
+   <div class="right">
+      <h3><b>Анна Иванова</b> / 25.01.2016</h3>
+      <span>Равным образом консультация с широким активом позволяет оценить значение существенных финансовых и административных условий. Идейные соображения высшего порядка, а также рамки и место обучения кадров требуют от нас анализа систем массового участия. С другой стороны постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке направлений прогрессивного развития. </span>
+  </div>
+</div>
+<a class="more" href="">Еще отзывы</a>
+</div>
+<div class="block7">
+    <h2>Заголовок СЕО текста</h2>
+    <div class="block">
+       <div class="left"><img src="img/stiralka.png"></div>
+       <div class="right">
+          <div id="full-text">
+             <p>Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности играет важную роль в формировании модели развития. С другой стороны дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки соответствующий условий активизации.</p>
+             <p>Таким образом новая модель организационной деятельности представляет собой интересный эксперимент проверки модели развития. Таким образом реализация намеченных плановых заданий требуют определения и уточнения новых предложений. Товарищи! постоянный количественный рост и сфера нашей активности позволяет оценить значение модели развития. Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение форм развития.</p>
+             <p>Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности способствует подготовки и реализации систем массового участия. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий требуют определения и уточнения форм развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание направлений прогрессивного развития.</p>
+         </div>
+     </div>
+     <a id="linka">Показать больше</a>
+ </div>
+</div>
+<div class="block8">
+    <b><span class="nazv">Имя:</span>
+       <input type="text"></b>
+       <b><span class="nazv">Телефон:</span>
+          <input type="text"></b>
+          <b><a href="#" class="vizov">Вызвать мастера</a></b>
+      </div>
+      <div class="footer">
+          <div class="footer-block1">
+             <div class="block-1">
+                <div class="left"><a href="">О компании</a><a href="">Цены</a><a href="">Гарантия</a><a href="">Отзывы</a></div>
+                <div class="right"><a href="">Вопросы-ответы</a><a href="">Зоны обслуживания</a><a href="">Контакты</a><a href="">Услуги</a></div>
+            </div>
+            <div class="block-2">
+                <span class="time">с 9-00 до 19-00 без выходных</span>
+                <a href="#" class="mail">namesite@yandex.ru</a>
+                <div class="header-top__button">
+                   <a rel="leanModal" href="#" class="call-button">Вызвать специалиста</a>
+               </div>
+           </div>
+           <div class="block-3">
+            <div class="header-top__phone">
+               <div class="phone">+7 999 999-99-99</div>
+               <a href="#" class="callback">Заказать звонок</a>
+           </div>
+           <div class="soc-icons">
+               <a href="#"><img src="img/fw-icon.png"></a>
+               <a href="#"><img src="img/vk-icon.png"></a>
+               <a href="#"><img src="img/tw-icon.png"></a>
+               <a href="#"><img src="img/g-icon.png"></a>
+           </div>
+       </div>
+   </div>
+   <div class="footer-block2">© TORECS. Все права защищены.</div>
+</div>
+</div>
+<script>
+   $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+         margin: 30,
+         nav: true,
+         loop: true,
+         navigationText: false,
+         mouseDrag: false,
+         responsive: {
+            0: {
+               items: 1
+           },
+           500: {
+               items: 2
+           },
+           850: {
+               items: 3
+           },
+           960: {
+               items: 4
+           }
+       }
+   })
+  })
+</script>
+<script>
+   $(document).ready(function() {
+      var owl = $('.owl-carousel2');
+      owl.owlCarousel({
+         margin: 30,
+         nav: true,
+         loop: true,
+         navigationText: false,
+         mouseDrag: false,
+         responsive: {
+            0: {
+               items: 1
+           },
+           450: {
+               items: 2
+           },
+           600: {
+               items: 3
+           },
+           850: {
+               items: 4
+           },
+           960: {
+               items: 5
+           }
+       }
+   })
+  })
+</script>
+</body>
+</html>
